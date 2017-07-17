@@ -28,12 +28,14 @@ function checkPassword() {
 
     // Iterate over the list of words to see if the password is contained in the dictionary word list
     /* ADD YOUR CODE BELOW  - to add a for loop to iterate "wordsList" */
-    for (i=0, i < wordsList.length < i++) {
+    for (i=0; i < wordsList.length; i++) {
+     
       if (pw == wordsList[i]) {
         isSecure = false;
         matchingWord = wordsList[i];
-
-    /* Put your loop statement here. */ ) {
+        break;
+      }
+    /* Put your loop statement here. */ 
       /* ADD YOUR CODE BELOW - If the password variation matches the dictionary word, it's not a secure password */
       /* Put your conditional here. */
     }
