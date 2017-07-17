@@ -70,7 +70,7 @@ function printResults(isSecure, word) {
   else {
     // if "isSecure" is NOT true, then...
     document.getElementById("results").style.color = "Red";
-    var resultsStr =  "Weak password " + word + " is in your password";
+    var resultsStr =  "Weak password" + " " + word + " " + "is in your password";
     document.getElementById("results").innerHTML = resultsStr;
   }
 
